@@ -2,7 +2,7 @@
 A simple C library to extract pixel data from 8-bit Bitmap images with example usage. The example describes adding a value of 50 to all the pixels
 
 ### Running the project
-If make is presented in your system you can use the makefile to compile and execute the code
+If make is present in your system you can use the makefile to compile and execute the code
 
 ```
 make
