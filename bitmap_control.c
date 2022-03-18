@@ -76,7 +76,7 @@ void getHeader(FILE *input, unsigned char *header) {
 	fread(header, sizeof(unsigned char), 54, input);
 }
 
-//Pass the array of size 254 * 4 bytes to store the colorTable
+//Pass the array of size 256 * 4 bytes to store the colorTable
 void getColorTable(FILE *input, unsigned int *colorTable) {
 //	unsigned int colorTable[256];
 
