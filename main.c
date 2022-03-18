@@ -11,8 +11,8 @@
 
 int main(){
 	// Reading the input image
-	FILE* input = fopen("/home/pi/umang/input/barbara_gray.bmp", "r");
-    FILE* output = fopen("/home/pi/umang/outputs/outputTry.bmp", "wb");
+	FILE* input = fopen("input.bmp", "r");
+    FILE* output = fopen("output.bmp", "wb");
 
 
     unsigned char header[54];
@@ -34,7 +34,6 @@ int main(){
 
 	getPixelsData(input, &pixels[0][0]);
 
-	printf("FIRST PIXEL: %d ", pixels[0][0]);
 
     for(int i=0; i<height; i++){
         for(int j=0; j<width; j++){
